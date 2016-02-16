@@ -1,0 +1,168 @@
+* {
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/*Navbar*/
+
+.navbar-default {
+	background-color: #FFA033;
+	text-decoration: none;
+	font-weight: 700;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	padding: 0.5rem;
+}
+
+.navbar-brand img {
+	height: 30px;
+	width: auto;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: #FFFFFF;
+}
+
+#nav-btn {
+	color: #FFA033;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	margin: 1rem;
+}
+
+/*Header*/
+
+header {
+	background: url(../images/background-header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	margin-top: -2rem;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 35px;
+  padding: 2rem 0;
+}
+
+.button {
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+.btn.btn-default.btn-lg {
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	background-color: #FFA033;
+	text-align: center;
+	font-style: italic;
+}
+
+/*About*/
+
+#about-section {
+	padding: 15rem 0;
+}
+
+#about-title {
+	font-weight: 700;
+	color: #FFA033;
+}
+
+#about-paragraph {
+	font-size: 16px;
+}
+
+/*Cookies*/
+
+#cookies {
+	background: url(../images/background-cookies.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 705px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.well {
+	background-color: #FFFFFF;
+	border: none;
+	text-align: center;
+	margin-top: 129px;
+}
+
+#title_cookie {
+	font-weight: 600;
+	color: #FFA033;
+}
+
+#btn-chip-cookie {
+	padding: 0.5rem 5rem 0.5rem 5rem;
+}
+
+#btn-cookie {
+	padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+#cookie-description {
+	font-size: 16px;
+}
+
+/*Signup*/
+#sign_up {
+	background: #FFA033;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+#signup-img {
+	display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+#cookie_signup {
+	margin-top: -45rem;
+	font-size: 6rem;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#submit-btn {
+	background: #F28300;
+	text-align: center;
+	height: 65px;
+	width: 200px;
+	margin-left: -0.4rem;
+}
+
+form {
+	text-align: center;
+	margin-top: 4.5rem;
+}
+
+.form-control.input-lg {
+	padding-right: 13rem;
+	border: none;
+	outline: none;
+	height: 65px;
+	font-size: 40px;
+	font-weight: 100;
+}
