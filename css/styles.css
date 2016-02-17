@@ -102,15 +102,18 @@ header img {
 	height: 705px;
 }
 
-.row-centered {
-    text-align:center;
+.cookie {
+	background: #FFFFFF;
+	width: 21.8%;
+	float: left;
+	margin: 142px 17px 142px 17px;
+	padding: 0.8rem 0 0.8rem 0;
+	text-align: center;
+	position: relative;
 }
 
-.well {
-	background-color: #FFFFFF;
-	border: none;
-	text-align: center;
-	margin-top: 129px;
+#chip {
+	margin-left: 18.5rem;
 }
 
 #title_cookie {
@@ -119,15 +122,19 @@ header img {
 }
 
 #btn-chip-cookie {
-	padding: 0.5rem 5rem 0.5rem 5rem;
+	height: 40px;
+	width: 210px;
 }
 
 #btn-cookie {
-	padding: 0.5rem 4rem 0.5rem 4rem;
+	height: 40px;
+	width: 210px;
 }
 
 #cookie-description {
 	font-size: 16px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 /*Signup*/
